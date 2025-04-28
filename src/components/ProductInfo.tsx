@@ -42,7 +42,7 @@ export const Amount: FC<Props<'span'>> = (props) => {
   const { amount } = useInfoContext();
 
   return (
-    <span className='text-amber-600' {...props}>
+    <span className='text-info-orange' {...props}>
       {amount}x
     </span>
   );
