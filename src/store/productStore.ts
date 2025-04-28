@@ -9,7 +9,7 @@ interface ProductStoreActions {
   clear: () => void;
 }
 
-export interface ProductStore {
+interface ProductStore {
   products: ProductWithAmount[];
   actions: ProductStoreActions;
 }
