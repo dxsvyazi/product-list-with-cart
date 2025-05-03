@@ -6,7 +6,7 @@ import Container from './base/Container';
 import Items from './Items';
 
 const Cart: FC = () => {
-  const products = useProductStore((state) => state.products);
+  const products = useProductStore(({ products }) => products);
 
   return products.length ? (
     <Items items={products} to={CartItem} />
