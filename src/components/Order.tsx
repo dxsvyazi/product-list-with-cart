@@ -25,10 +25,12 @@ const Order: FC = () => {
 };
 
 export const OrderTotal: FC = () => {
-  const totalPrice = useProductStore((state) => state.products.reduce(
-    (total, product) => total + product.amount * Number(product.price),
-    0
-  ));
+  const totalPrice = useProductStore(({ products }) =>
+    products.reduce(
+      (total, product) => total + product.amount * Number(product.price),
+      0
+    )
+  );
 
   return (
     <Container className='justify-between' variants={{ items: 'centered' }}>
