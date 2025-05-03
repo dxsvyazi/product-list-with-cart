@@ -7,7 +7,7 @@ import Button from './base/Button';
 import Container from './base/Container';
 
 const CartItem: FC<CartItemProps> = (item) => {
-  const { removeProduct } = useProductStore((state) => state.actions);
+  const { removeProduct } = useProductStore(({ actions }) => actions);
 
   return (
     <Container className='justify-between w-full'>
