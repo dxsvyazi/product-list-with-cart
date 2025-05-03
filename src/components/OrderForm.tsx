@@ -10,8 +10,8 @@ import Container from './base/Container';
 import Items from './Items';
 
 const OrderForm: FC = () => {
-  const products = useProductStore((state) => state.products);
-  const { clear } = useProductStore((state) => state.actions);
+  const products = useProductStore(({ products }) => products);
+  const { clear } = useProductStore(({ actions }) => actions);
   const toggle = useModalStore(({ toggle }) => toggle);
 
   const handleClick: MouseEventHandler = (e) => {
@@ -49,8 +49,8 @@ const OrderForm: FC = () => {
         <OrderTotal />
       </Container>
       <Button
-        variants={{ color: 'orange' }}
         className='p-2'
+        variants={{ color: 'orange' }}
         onClick={handleClick}
       >
         Start New Order

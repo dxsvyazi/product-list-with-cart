@@ -2,8 +2,8 @@ import { FC } from 'react';
 import { useProductStore } from '@store/productStore';
 
 const TotalProducts: FC = () => {
-  const totalProducts = useProductStore((state) =>
-    state.products.reduce((total, { amount }) => total + amount, 0)
+  const totalProducts = useProductStore(({ products }) =>
+    products.reduce((total, { amount }) => total + amount, 0)
   );
 
   return (

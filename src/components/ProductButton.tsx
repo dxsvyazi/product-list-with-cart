@@ -8,11 +8,11 @@ import Container from './base/Container';
 
 const ProductButton: FC<AddButtonProps> = ({ name, price }) => {
   const amount = useProductStore(
-    (state) =>
-      state.products.find((product) => product.name === name)?.amount || 0
+    ({ products }) =>
+      products.find((product) => product.name === name)?.amount || 0
   );
   const { setAmount, addProduct, removeProduct } = useProductStore(
-    (state) => state.actions
+    ({ actions }) => actions
   );
 
   const inc = () => {
