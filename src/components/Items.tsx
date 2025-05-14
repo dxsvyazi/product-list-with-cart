@@ -1,20 +1,26 @@
-import { FC } from 'react';
+import { FC, ComponentPropsWithRef as Props, Key, ReactNode } from 'react';
 import Container from './base/Container';
+import Conditional from './base/Conditional';
 
-const Items: FC<{ items: any[]; to: FC<any> }> = ({
+interface ItemProps<T extends { key: Key }> extends Props<typeof Container> {
+  items: T[];
+  to: FC<Omit<{ [K in keyof T]: T[K] }, 'key'>>;
+  fallback?: ReactNode;
+}
+
+const Items = <T extends { key: Key }>({
   items,
+  fallback,
   to: Component,
-}) => {
-  return (
-    <Container
-      className='divide-info-primary p-0 gap-0'
-      variants={{ flow: 'col', items: 'centered', divideY: 2 }}
-    >
-      {items.map((props) => (
-        <Component key={crypto.randomUUID()} {...props} />
+  ...props
+}: ItemProps<T>) => (
+  <Conditional con={items.length > 0} fallback={fallback}>
+    <Container {...props}>
+      {items.map(({ key, ...rest }) => (
+        <Component key={key} {...rest} />
       ))}
     </Container>
-  );
-};
+  </Conditional>
+);
 
 export default Items;

@@ -1,8 +1,8 @@
 import { cva } from 'class-variance-authority';
-import ve from '@utils/VariantElementsFactory';
+import { ve, TComponent } from '@utils/VariantElementsFactory';
 
 const Container = ve(
-  'div',
+  TComponent,
   cva('flex flex-wrap gap-2 p-2', {
     variants: {
       flow: {

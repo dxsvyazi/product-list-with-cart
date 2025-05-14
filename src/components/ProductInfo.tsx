@@ -33,7 +33,7 @@ export const Price: FC<{ prefix?: string } & Props<'span'>> = ({
 
   return (
     <span className='text-info-primary' {...props}>
-      {prefix ? prefix : null} ${price}
+      {prefix ?? null} ${price}
     </span>
   );
 };
@@ -64,12 +64,10 @@ const ProductInfo: FC<Props<typeof ContainerFlex> & InfoContextProps> = ({
   category,
   amount,
   ...props
-}) => {
-  return (
-    <InfoContext.Provider value={{ price, category, amount, name }}>
-      <ContainerFlex {...props} />
-    </InfoContext.Provider>
-  );
-};
+}) => (
+  <InfoContext.Provider value={{ price, category, amount, name }}>
+    <ContainerFlex {...props} />
+  </InfoContext.Provider>
+);
 
 export default ProductInfo;

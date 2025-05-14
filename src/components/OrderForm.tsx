@@ -1,5 +1,4 @@
 import { FC, MouseEventHandler } from 'react';
-import { cn } from '@utils/shared';
 import { useProductStore } from '@store/productStore';
 import { OrderTotal } from './Order';
 import { useModalStore } from '@store/modalStore';
@@ -21,18 +20,11 @@ const OrderForm: FC = () => {
   };
 
   return (
-    <form
+    <Container
+      as='form'
       method='dialog'
-      className={cn(
-        'flex',
-        'flex-col',
-        'p-6',
-        'gap-4',
-        'max-w-140',
-        'h-fit',
-        'rounded-2xl',
-        'bg-white'
-      )}
+      className='p-6 gap-4 max-w-140 h-fit bg-white'
+      variants={{ flow: 'col', rounded:'xl' }}
     >
       <img src={orderConfirmedIcon} width={40} />
       <Container variants={{ flow: 'col' }}>
@@ -45,7 +37,12 @@ const OrderForm: FC = () => {
         className='bg-main divide-info-primary'
         variants={{ flow: 'col', rounded: 'xl', divideY: 2 }}
       >
-        <Items items={products} to={OrderItem} />
+        <Items
+          className='divide-info-primary p-0 gap-0'
+          variants={{ flow: 'col', items: 'centered', divideY: 2 }}
+          items={products}
+          to={OrderItem}
+        />
         <OrderTotal />
       </Container>
       <Button
@@ -55,7 +52,7 @@ const OrderForm: FC = () => {
       >
         Start New Order
       </Button>
-    </form>
+    </Container>
   );
 };
 

@@ -2,15 +2,17 @@ import { ProductWithAmount } from '@sharedTypes/productTypes';
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
+type Product = ProductWithAmount & { key: string };
+
 interface ProductStoreActions {
-  addProduct: (product: ProductWithAmount) => void;
+  addProduct: (product: Product) => void;
   removeProduct: (name: string) => void;
   setAmount: (name: string, amount: number) => void;
   clear: () => void;
 }
 
 interface ProductStore {
-  products: ProductWithAmount[];
+  products: Product[];
   actions: ProductStoreActions;
 }
 
@@ -19,7 +21,7 @@ export const useProductStore = create<ProductStore>()(
     (set) => ({
       products: [],
       actions: {
-        addProduct: (product: ProductWithAmount) =>
+        addProduct: (product: Product) =>
           set(({ products }) => ({ products: [...products, product] })),
 
         removeProduct: (name: string) =>
@@ -42,7 +44,7 @@ export const useProductStore = create<ProductStore>()(
     }),
     {
       name: 'product store',
-      partialize: (state) => ({products: state.products})
+      partialize: (state) => ({ products: state.products }),
     }
   )
 );

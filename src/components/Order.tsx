@@ -27,7 +27,7 @@ const Order: FC = () => {
 export const OrderTotal: FC = () => {
   const totalPrice = useProductStore(({ products }) =>
     products.reduce(
-      (total, product) => total + product.amount * Number(product.price),
+      (total, { price, amount }) => total + parseFloat(price) * amount,
       0
     )
   );

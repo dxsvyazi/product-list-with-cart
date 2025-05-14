@@ -27,7 +27,7 @@ const ProductButton: FC<AddButtonProps> = ({ name, price }) => {
   };
 
   const addToCart = () => {
-    addProduct({ name, price, amount: 1 });
+    addProduct({ name, price, amount: 1, key: crypto.randomUUID() });
   };
 
   return amount ? (
