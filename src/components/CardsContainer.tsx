@@ -1,9 +1,13 @@
 import { FC } from 'react';
 import { useQuery } from '@tanstack/react-query';
-import { ProductWithCategory as DataJSON } from '@sharedTypes/productTypes';
+import { ProductWithCategory } from '@sharedTypes/productTypes';
 import ProductCard from './ProductCard';
 import Loading from './Loading';
-import Container from './base/Container';
+import Items from './Items';
+
+interface DataJSON extends ProductWithCategory {
+  id: number;
+}
 
 const CardsContainter: FC = () => {
   const {
@@ -15,16 +19,19 @@ const CardsContainter: FC = () => {
     queryFn: () =>
       fetch('/data.json')
         .then((response) => response.json())
-        .then((data: DataJSON[]) => data),
+        .then((data: DataJSON[]) =>
+          data.map(({ id, ...rest }) => ({ key: id, ...rest }))
+        ),
   });
 
   return (
     <Loading isError={isError} isLoading={isLoading}>
-      <Container className='max-w-250' variants={{ items: 'centered' }}>
-        {cards?.map(({ name, ...rest }) => (
-          <ProductCard key={name} name={name} {...rest} />
-        ))}
-      </Container>
+      <Items
+        className='max-w-250'
+        variants={{ items: 'centered' }}
+        items={cards ?? []}
+        to={ProductCard}
+      />
     </Loading>
   );
 };
