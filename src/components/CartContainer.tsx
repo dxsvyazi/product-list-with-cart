@@ -5,6 +5,7 @@ import Container from './base/Container';
 import Cart from './Cart';
 import Order from './Order';
 import TotalProducts from './TotalProducts';
+import Conditional from './base/Conditional';
 
 const CartContainer: FC = () => {
   const hasProducts = useProductStore(({ products }) => products.length > 0);
@@ -17,14 +18,16 @@ const CartContainer: FC = () => {
     >
       <Container className='p-0 justify-between'>
         <TotalProducts />
-        {hasProducts ? (
+        <Conditional con={hasProducts}>
           <Button className='px-2' onClick={clear}>
             Clear
           </Button>
-        ) : null}
+        </Conditional>
       </Container>
       <Cart />
-      {hasProducts ? <Order /> : null}
+      <Conditional con={hasProducts}>
+        <Order />
+      </Conditional>
     </Container>
   );
 };
