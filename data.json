@@ -1,45 +1,54 @@
 [
   {
+    "id": 1,
     "name": "Waffle with Berries",
     "category": "Waffle",
     "price": "6.50"
   },
   {
+    "id": 2,
     "name": "Vanilla Bean Creme Brulee",
     "category": "Creme Brulee",
     "price": "7.00"
   },
   {
+    "id": 3,
     "name": "Macaron Mix of Five",
     "category": "Macaron",
     "price": "8.00"
   },
   {
+    "id": 4,
     "name": "Classic Tiramisu",
     "category": "Tiramisu",
     "price": "5.50"
   },
   {
+    "id": 5,
     "name": "Pistachio Baklava",
     "category": "Baklava",
     "price": "4.00"
   },
   {
+    "id": 6,
     "name": "Lemon Meringue Pie",
     "category": "Pie",
     "price": "5.00"
   },
   {
+    "id": 7,
     "name": "Red Velvet Cake",
     "category": "Cake",
     "price": "4.50"
   },
   {
+    "id": 8,
     "name": "Salted Caramel Brownie",
     "category": "Brownie",
     "price": "4.50"
   },
   {
+    "id": 9,
     "name": "Vanilla Panna Cotta",
     "category": "Panna Cotta",
     "price": "6.50"
