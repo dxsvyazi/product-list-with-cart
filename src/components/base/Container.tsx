@@ -1,5 +1,13 @@
+import { ElementType, ComponentPropsWithRef as Props } from 'react';
 import { cva } from 'class-variance-authority';
-import { ve, TComponent } from '@utils/VariantElementsFactory';
+import { TC, ve } from '@utils/VariantElementsFactory';
+
+const TComponent = <T extends ElementType = 'div'>({
+  as: Component = 'div' as T,
+  ...props
+}: { as?: T } & Omit<Props<TC<T, 'div'>>, 'as'>) => (
+  <Component {...(props as Props<T>)} />
+);
 
 const Container = ve(
   TComponent,

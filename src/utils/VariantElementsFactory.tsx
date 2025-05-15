@@ -1,4 +1,4 @@
-import { ElementType, ComponentPropsWithRef as Props } from 'react';
+import { ElementType, JSX, ComponentPropsWithRef as Props } from 'react';
 import { cva, VariantProps } from 'class-variance-authority';
 import { cn } from '@utils/shared';
 
@@ -34,16 +34,13 @@ export type TC<T extends ElementType, F extends ElementType> = StrictExtends<
   F
 >;
 
-export type TComponentType = typeof TComponent;
+export type TComponentType = <T extends ElementType>({
+  as,
+}: { as?: T } & Omit<Props<T>, 'as'>) => JSX.Element;
 
-export type TComponentTypeG<T extends ElementType> = typeof TComponent<T>;
-
-export const TComponent = <T extends ElementType = 'div'>({
-  as: Component = 'div' as T,
-  ...props
-}: { as?: T } & Omit<Props<TC<T, 'div'>>, 'as'>) => (
-  <Component {...(props as Props<T>)} />
-);
+export type TComponentTypeG<T extends ElementType> = ({
+  as,
+}: { as?: T } & Omit<Props<T>, 'as'>) => JSX.Element;
 
 export const ve = <T extends ElementType, U extends VeFnType>(
   Component: T,
