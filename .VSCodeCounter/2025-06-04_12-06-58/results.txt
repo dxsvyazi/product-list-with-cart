@@ -1,0 +1,37 @@
+Date : 2025-06-04 12:06:58
+Directory : d:\vscode\js\frontend mentor\product-list-with-cart\server\src
+Total : 8 files,  181 codes, 0 comments, 51 blanks, all 232 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| TypeScript |          7 |        179 |          0 |         49 |        228 |
+| JavaScript |          1 |          2 |          0 |          2 |          4 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                       | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                          |          8 |        181 |          0 |         51 |        232 |
+| . (Files)                                                                                  |          2 |        102 |          0 |         34 |        136 |
+| model                                                                                      |          3 |         60 |          0 |         11 |         71 |
+| routers                                                                                    |          1 |         14 |          0 |          4 |         18 |
+| shared                                                                                     |          2 |          5 |          0 |          2 |          7 |
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                   | language   | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| d:\vscode\js\frontend mentor\product-list-with-cart\server\src\index.ts                    | TypeScript |        100 |          0 |         32 |        132 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\server\src\model\product.model.ts      | TypeScript |         16 |          0 |          3 |         19 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\server\src\model\refreshToken.model.ts | TypeScript |         23 |          0 |          4 |         27 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\server\src\model\user.model.ts         | TypeScript |         21 |          0 |          4 |         25 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\server\src\routers\product.router.ts   | TypeScript |         14 |          0 |          4 |         18 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\server\src\shared\http.messages.ts     | TypeScript |          5 |          0 |          1 |          6 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\server\src\shared\utils.ts             | TypeScript |          0 |          0 |          1 |          1 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\server\src\test.js                     | JavaScript |          2 |          0 |          2 |          4 |
+| Total                                                                                      |            |        181 |          0 |         51 |        232 |
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

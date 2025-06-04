@@ -1,0 +1,90 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: RedHatText;
+  src: url('../assets/fonts/static/RedHatText-Bold.ttf') format('truetype');
+  font-weight: 800;
+  font-named-instance: 'Bold';
+}
+
+@font-face {
+  font-family: RedHatText;
+  src: url('../assets/fonts/static/RedHatText-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-named-instance: 'Regular';
+}
+
+@font-face {
+  font-family: RedHatText;
+  src: url('../assets/fonts/static/RedHatText-SemiBold.ttf') format('truetype');
+  font-weight: 700;
+  font-named-instance: 'Semi-Bold';
+}
+
+@theme {
+  --font-RedHat: RedHatText;
+
+  --color-info-orange: var(--color-orange-600);
+  --color-info-primary: hsl(0, 12%, 79%);
+  --color-info-secondary: hsl(4, 7%, 45%);
+  --color-main-100: hsl(26, 100%, 97%);
+  --color-main-200: hsl(25, 51%, 88%);
+
+  --breakpoint-lg: 1440px;
+  --breakpoint-sm: 375px;
+
+  --animate-drop: drop 2s ease-in-out;
+  --animate-finiteSpin: finiteSpin 2s ease-in-out;
+
+  @keyframes drop {
+    from {
+      height: 0%;
+    }
+    to {
+      height: 100%;
+    }
+  }
+
+  @keyframes finiteSpin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+@layer base {
+  body {
+    @apply
+    flex
+    flex-col
+    w-full
+    h-dvh
+    justify-between
+    items-center
+    font-RedHat
+    font-semibold
+    bg-main-100;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: inherit;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--color-neutral-800);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-orange-600);
+}

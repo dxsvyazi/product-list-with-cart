@@ -1,0 +1,10 @@
+"filename", "language", "TypeScript", "JavaScript", "comment", "blank", "total"
+"d:\vscode\js\frontend mentor\product-list-with-cart\server\src\index.ts", "TypeScript", 100, 0, 0, 32, 132
+"d:\vscode\js\frontend mentor\product-list-with-cart\server\src\model\product.model.ts", "TypeScript", 16, 0, 0, 3, 19
+"d:\vscode\js\frontend mentor\product-list-with-cart\server\src\model\refreshToken.model.ts", "TypeScript", 23, 0, 0, 4, 27
+"d:\vscode\js\frontend mentor\product-list-with-cart\server\src\model\user.model.ts", "TypeScript", 21, 0, 0, 4, 25
+"d:\vscode\js\frontend mentor\product-list-with-cart\server\src\routers\product.router.ts", "TypeScript", 14, 0, 0, 4, 18
+"d:\vscode\js\frontend mentor\product-list-with-cart\server\src\shared\http.messages.ts", "TypeScript", 5, 0, 0, 1, 6
+"d:\vscode\js\frontend mentor\product-list-with-cart\server\src\shared\utils.ts", "TypeScript", 0, 0, 0, 1, 1
+"d:\vscode\js\frontend mentor\product-list-with-cart\server\src\test.js", "JavaScript", 0, 2, 0, 2, 4
+"Total", "-", 179, 2, 0, 51, 232

@@ -1,0 +1,72 @@
+"filename", "language", "JSON with Comments", "TypeScript", "JSON", "TypeScript JSX", "PostCSS", "XML", "HTML", "JavaScript", "Properties", "comment", "blank", "total"
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\.env", "Properties", 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 2
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\.vite\deps\_metadata.json", "JSON", 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 8
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\.vite\deps\package.json", "JSON", 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 1, 4
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\eslint.config.js", "JavaScript", 0, 0, 0, 0, 0, 0, 0, 27, 0, 0, 2, 29
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\index.html", "HTML", 0, 0, 0, 0, 0, 0, 12, 0, 0, 0, 1, 13
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\package-lock.json", "JSON", 0, 0, 5040, 0, 0, 0, 0, 0, 0, 0, 1, 5041
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\package.json", "JSON", 0, 0, 42, 0, 0, 0, 0, 0, 0, 0, 1, 43
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\products.json", "JSON", 0, 0, 56, 0, 0, 0, 0, 0, 0, 0, 1, 57
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\public\vite.svg", "XML", 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\api\productApi.ts", "TypeScript", 0, 14, 0, 0, 0, 0, 0, 0, 0, 0, 4, 18
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\app.tsx", "TypeScript JSX", 0, 0, 0, 23, 0, 0, 0, 0, 0, 0, 3, 26
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\assets\images\AddToCartIcon.tsx", "TypeScript JSX", 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 3, 28
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\assets\images\CarbonNeutralIcon.tsx", "TypeScript JSX", 0, 0, 0, 24, 0, 0, 0, 0, 0, 0, 3, 27
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\assets\images\DecrementIcon.tsx", "TypeScript JSX", 0, 0, 0, 17, 0, 0, 0, 0, 0, 0, 3, 20
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\assets\images\IncrementIcon.tsx", "TypeScript JSX", 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 3, 23
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\assets\images\InfoIcon.tsx", "TypeScript JSX", 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 3, 28
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\assets\images\MoonFillIcon.tsx", "TypeScript JSX", 0, 0, 0, 19, 0, 0, 0, 0, 0, 0, 3, 22
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\assets\images\MoonIcon.tsx", "TypeScript JSX", 0, 0, 0, 22, 0, 0, 0, 0, 0, 0, 3, 25
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\assets\images\OrderConfirmedIcon.tsx", "TypeScript JSX", 0, 0, 0, 24, 0, 0, 0, 0, 0, 0, 3, 27
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\assets\images\RemoveIcon.tsx", "TypeScript JSX", 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 3, 23
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\assets\images\SunFillIcon.tsx", "TypeScript JSX", 0, 0, 0, 22, 0, 0, 0, 0, 0, 0, 3, 25
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\assets\images\SunIcon.tsx", "TypeScript JSX", 0, 0, 0, 19, 0, 0, 0, 0, 0, 0, 3, 22
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\assets\images\SystemFillIcon.tsx", "TypeScript JSX", 0, 0, 0, 19, 0, 0, 0, 0, 0, 0, 3, 22
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\assets\images\SystemIcon.tsx", "TypeScript JSX", 0, 0, 0, 19, 0, 0, 0, 0, 0, 0, 3, 22
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\assets\images\illustration-empty-cart.svg", "XML", 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\CardsContainer.tsx", "TypeScript JSX", 0, 0, 0, 42, 0, 0, 0, 0, 0, 0, 7, 49
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\Cart.tsx", "TypeScript JSX", 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 5, 33
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\CartContainer.tsx", "TypeScript JSX", 0, 0, 0, 37, 0, 0, 0, 0, 0, 0, 4, 41
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\CartItem.tsx", "TypeScript JSX", 0, 0, 0, 30, 0, 0, 0, 0, 0, 0, 4, 34
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\ConfirmationModal.tsx", "TypeScript JSX", 0, 0, 0, 26, 0, 0, 0, 0, 0, 0, 5, 31
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\FormField.tsx", "TypeScript JSX", 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 4, 24
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\Header.tsx", "TypeScript JSX", 0, 0, 0, 50, 0, 0, 0, 0, 0, 0, 4, 54
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\Info.tsx", "TypeScript JSX", 0, 0, 0, 32, 0, 0, 0, 0, 0, 0, 4, 36
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\Order.tsx", "TypeScript JSX", 0, 0, 0, 38, 0, 0, 0, 0, 0, 0, 6, 44
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\OrderForm.tsx", "TypeScript JSX", 0, 0, 0, 55, 0, 0, 0, 0, 0, 0, 5, 60
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\OrderItem.tsx", "TypeScript JSX", 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 3, 28
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\PageRange.tsx", "TypeScript JSX", 0, 0, 0, 74, 0, 0, 0, 0, 0, 0, 9, 83
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\ProductButton.tsx", "TypeScript JSX", 0, 0, 0, 69, 0, 0, 0, 0, 0, 0, 7, 76
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\ProductCard.tsx", "TypeScript JSX", 0, 0, 0, 55, 0, 0, 0, 0, 0, 0, 4, 59
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\ProductInfo.tsx", "TypeScript JSX", 0, 0, 0, 62, 0, 0, 0, 0, 0, 0, 13, 75
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\ThemeDropDown.tsx", "TypeScript JSX", 0, 0, 0, 71, 0, 0, 0, 0, 0, 0, 5, 76
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\TotalProducts.tsx", "TypeScript JSX", 0, 0, 0, 13, 0, 0, 0, 0, 0, 0, 4, 17
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\base\AnyList.tsx", "TypeScript JSX", 0, 0, 0, 29, 0, 0, 0, 0, 0, 0, 5, 34
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\base\Button.tsx", "TypeScript JSX", 0, 0, 0, 63, 0, 0, 0, 0, 0, 0, 4, 67
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\base\Conditional.tsx", "TypeScript JSX", 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 4, 14
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\base\Container.tsx", "TypeScript JSX", 0, 0, 0, 56, 0, 0, 0, 0, 0, 0, 4, 60
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\base\DropDown.tsx", "TypeScript JSX", 0, 0, 0, 30, 0, 0, 0, 0, 0, 0, 4, 34
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\base\List.tsx", "TypeScript JSX", 0, 0, 0, 27, 0, 0, 0, 0, 0, 0, 5, 32
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\base\Loading.tsx", "TypeScript JSX", 0, 0, 0, 11, 0, 0, 0, 0, 0, 0, 5, 16
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\contexts\InfoContext.ts", "TypeScript", 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 5, 15
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\hooks\usePages.ts", "TypeScript", 0, 16, 0, 0, 0, 0, 0, 0, 0, 0, 5, 21
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\hooks\useVirtualizer.ts", "TypeScript", 0, 31, 0, 0, 0, 0, 0, 0, 0, 0, 9, 40
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\main.tsx", "TypeScript JSX", 0, 0, 0, 13, 0, 0, 0, 0, 0, 0, 3, 16
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\pages\Login.tsx", "TypeScript JSX", 0, 0, 0, 96, 0, 0, 0, 0, 0, 0, 10, 106
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\pages\Main.tsx", "TypeScript JSX", 0, 0, 0, 17, 0, 0, 0, 0, 0, 0, 3, 20
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\pages\Registration.tsx", "TypeScript JSX", 0, 0, 0, 119, 0, 0, 0, 0, 0, 0, 10, 129
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\shared\env.ts", "TypeScript", 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 4, 14
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\shared\types\productTypes.ts", "TypeScript", 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 3, 13
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\shared\types\types.ts", "TypeScript", 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 3, 6
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\shared\utils\VariantElementsFactory.tsx", "TypeScript JSX", 0, 0, 0, 53, 0, 0, 0, 0, 0, 0, 12, 65
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\shared\utils\utils.ts", "TypeScript", 0, 31, 0, 0, 0, 0, 0, 0, 0, 0, 7, 38
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\store\modalStore.ts", "TypeScript", 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 3, 12
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\store\productStore.ts", "TypeScript", 0, 43, 0, 0, 0, 0, 0, 0, 0, 0, 8, 51
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\store\userStore.ts", "TypeScript", 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 3, 12
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\styles\apptailwind.css", "PostCSS", 0, 0, 0, 0, 72, 0, 0, 0, 0, 4, 14, 90
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\src\vite-env.d.ts", "TypeScript", 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\tsconfig.app.json", "JSON", 0, 0, 34, 0, 0, 0, 0, 0, 0, 2, 3, 39
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\tsconfig.json", "JSON with Comments", 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 8
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\tsconfig.node.json", "JSON", 0, 0, 20, 0, 0, 0, 0, 0, 0, 2, 3, 25
+"d:\vscode\js\frontend mentor\product-list-with-cart\client\vite.config.ts", "TypeScript", 0, 26, 0, 0, 0, 0, 0, 0, 0, 1, 2, 29
+"Total", "-", 7, 212, 5203, 1549, 72, 2, 12, 27, 2, 10, 288, 7384

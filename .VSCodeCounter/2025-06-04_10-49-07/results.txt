@@ -1,0 +1,123 @@
+Date : 2025-06-04 10:49:07
+Directory : d:\vscode\js\frontend mentor\product-list-with-cart\client
+Total : 70 files,  7086 codes, 10 comments, 288 blanks, all 7384 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JSON               |          7 |      5,203 |          4 |         10 |      5,217 |
+| TypeScript JSX     |         43 |      1,549 |          0 |        204 |      1,753 |
+| TypeScript         |         13 |        212 |          2 |         56 |        270 |
+| PostCSS            |          1 |         72 |          4 |         14 |         90 |
+| JavaScript         |          1 |         27 |          0 |          2 |         29 |
+| HTML               |          1 |         12 |          0 |          1 |         13 |
+| JSON with Comments |          1 |          7 |          0 |          1 |          8 |
+| XML                |          2 |          2 |          0 |          0 |          2 |
+| Properties         |          1 |          2 |          0 |          0 |          2 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                     | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                        |         70 |      7,086 |         10 |        288 |      7,384 |
+| . (Files)                                                                                                |         10 |      5,266 |          5 |         15 |      5,286 |
+| .vite                                                                                                    |          2 |         11 |          0 |          1 |         12 |
+| .vite\deps                                                                                               |          2 |         11 |          0 |          1 |         12 |
+| public                                                                                                   |          1 |          1 |          0 |          0 |          1 |
+| src                                                                                                      |         57 |      1,808 |          5 |        272 |      2,085 |
+| src (Files)                                                                                              |          3 |         36 |          1 |          6 |         43 |
+| src\api                                                                                                  |          1 |         14 |          0 |          4 |         18 |
+| src\assets                                                                                               |         14 |        276 |          0 |         39 |        315 |
+| src\assets\images                                                                                        |         14 |        276 |          0 |         39 |        315 |
+| src\components                                                                                           |         24 |        953 |          0 |        124 |      1,077 |
+| src\components (Files)                                                                                   |         17 |        727 |          0 |         93 |        820 |
+| src\components\base                                                                                      |          7 |        226 |          0 |         31 |        257 |
+| src\contexts                                                                                             |          1 |         10 |          0 |          5 |         15 |
+| src\hooks                                                                                                |          2 |         47 |          0 |         14 |         61 |
+| src\pages                                                                                                |          3 |        232 |          0 |         23 |        255 |
+| src\shared                                                                                               |          5 |        107 |          0 |         29 |        136 |
+| src\shared (Files)                                                                                       |          1 |         10 |          0 |          4 |         14 |
+| src\shared\types                                                                                         |          2 |         13 |          0 |          6 |         19 |
+| src\shared\utils                                                                                         |          2 |         84 |          0 |         19 |        103 |
+| src\store                                                                                                |          3 |         61 |          0 |         14 |         75 |
+| src\styles                                                                                               |          1 |         72 |          4 |         14 |         90 |
++----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                                                 | language           | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\.env                                          | Properties         |          2 |          0 |          0 |          2 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\.vite\deps\_metadata.json                     | JSON               |          8 |          0 |          0 |          8 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\.vite\deps\package.json                       | JSON               |          3 |          0 |          1 |          4 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\eslint.config.js                              | JavaScript         |         27 |          0 |          2 |         29 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\index.html                                    | HTML               |         12 |          0 |          1 |         13 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\package-lock.json                             | JSON               |      5,040 |          0 |          1 |      5,041 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\package.json                                  | JSON               |         42 |          0 |          1 |         43 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\products.json                                 | JSON               |         56 |          0 |          1 |         57 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\public\vite.svg                               | XML                |          1 |          0 |          0 |          1 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\api\productApi.ts                         | TypeScript         |         14 |          0 |          4 |         18 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\app.tsx                                   | TypeScript JSX     |         23 |          0 |          3 |         26 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\assets\images\AddToCartIcon.tsx           | TypeScript JSX     |         25 |          0 |          3 |         28 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\assets\images\CarbonNeutralIcon.tsx       | TypeScript JSX     |         24 |          0 |          3 |         27 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\assets\images\DecrementIcon.tsx           | TypeScript JSX     |         17 |          0 |          3 |         20 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\assets\images\IncrementIcon.tsx           | TypeScript JSX     |         20 |          0 |          3 |         23 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\assets\images\InfoIcon.tsx                | TypeScript JSX     |         25 |          0 |          3 |         28 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\assets\images\MoonFillIcon.tsx            | TypeScript JSX     |         19 |          0 |          3 |         22 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\assets\images\MoonIcon.tsx                | TypeScript JSX     |         22 |          0 |          3 |         25 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\assets\images\OrderConfirmedIcon.tsx      | TypeScript JSX     |         24 |          0 |          3 |         27 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\assets\images\RemoveIcon.tsx              | TypeScript JSX     |         20 |          0 |          3 |         23 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\assets\images\SunFillIcon.tsx             | TypeScript JSX     |         22 |          0 |          3 |         25 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\assets\images\SunIcon.tsx                 | TypeScript JSX     |         19 |          0 |          3 |         22 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\assets\images\SystemFillIcon.tsx          | TypeScript JSX     |         19 |          0 |          3 |         22 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\assets\images\SystemIcon.tsx              | TypeScript JSX     |         19 |          0 |          3 |         22 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\assets\images\illustration-empty-cart.svg | XML                |          1 |          0 |          0 |          1 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\CardsContainer.tsx             | TypeScript JSX     |         42 |          0 |          7 |         49 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\Cart.tsx                       | TypeScript JSX     |         28 |          0 |          5 |         33 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\CartContainer.tsx              | TypeScript JSX     |         37 |          0 |          4 |         41 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\CartItem.tsx                   | TypeScript JSX     |         30 |          0 |          4 |         34 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\ConfirmationModal.tsx          | TypeScript JSX     |         26 |          0 |          5 |         31 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\FormField.tsx                  | TypeScript JSX     |         20 |          0 |          4 |         24 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\Header.tsx                     | TypeScript JSX     |         50 |          0 |          4 |         54 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\Info.tsx                       | TypeScript JSX     |         32 |          0 |          4 |         36 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\Order.tsx                      | TypeScript JSX     |         38 |          0 |          6 |         44 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\OrderForm.tsx                  | TypeScript JSX     |         55 |          0 |          5 |         60 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\OrderItem.tsx                  | TypeScript JSX     |         25 |          0 |          3 |         28 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\PageRange.tsx                  | TypeScript JSX     |         74 |          0 |          9 |         83 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\ProductButton.tsx              | TypeScript JSX     |         69 |          0 |          7 |         76 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\ProductCard.tsx                | TypeScript JSX     |         55 |          0 |          4 |         59 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\ProductInfo.tsx                | TypeScript JSX     |         62 |          0 |         13 |         75 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\ThemeDropDown.tsx              | TypeScript JSX     |         71 |          0 |          5 |         76 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\TotalProducts.tsx              | TypeScript JSX     |         13 |          0 |          4 |         17 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\base\AnyList.tsx               | TypeScript JSX     |         29 |          0 |          5 |         34 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\base\Button.tsx                | TypeScript JSX     |         63 |          0 |          4 |         67 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\base\Conditional.tsx           | TypeScript JSX     |         10 |          0 |          4 |         14 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\base\Container.tsx             | TypeScript JSX     |         56 |          0 |          4 |         60 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\base\DropDown.tsx              | TypeScript JSX     |         30 |          0 |          4 |         34 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\base\List.tsx                  | TypeScript JSX     |         27 |          0 |          5 |         32 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\components\base\Loading.tsx               | TypeScript JSX     |         11 |          0 |          5 |         16 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\contexts\InfoContext.ts                   | TypeScript         |         10 |          0 |          5 |         15 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\hooks\usePages.ts                         | TypeScript         |         16 |          0 |          5 |         21 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\hooks\useVirtualizer.ts                   | TypeScript         |         31 |          0 |          9 |         40 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\main.tsx                                  | TypeScript JSX     |         13 |          0 |          3 |         16 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\pages\Login.tsx                           | TypeScript JSX     |         96 |          0 |         10 |        106 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\pages\Main.tsx                            | TypeScript JSX     |         17 |          0 |          3 |         20 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\pages\Registration.tsx                    | TypeScript JSX     |        119 |          0 |         10 |        129 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\shared\env.ts                             | TypeScript         |         10 |          0 |          4 |         14 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\shared\types\productTypes.ts              | TypeScript         |         10 |          0 |          3 |         13 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\shared\types\types.ts                     | TypeScript         |          3 |          0 |          3 |          6 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\shared\utils\VariantElementsFactory.tsx   | TypeScript JSX     |         53 |          0 |         12 |         65 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\shared\utils\utils.ts                     | TypeScript         |         31 |          0 |          7 |         38 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\store\modalStore.ts                       | TypeScript         |          9 |          0 |          3 |         12 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\store\productStore.ts                     | TypeScript         |         43 |          0 |          8 |         51 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\store\userStore.ts                        | TypeScript         |          9 |          0 |          3 |         12 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\styles\apptailwind.css                    | PostCSS            |         72 |          4 |         14 |         90 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\src\vite-env.d.ts                             | TypeScript         |          0 |          1 |          0 |          1 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\tsconfig.app.json                             | JSON               |         34 |          2 |          3 |         39 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\tsconfig.json                                 | JSON with Comments |          7 |          0 |          1 |          8 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\tsconfig.node.json                            | JSON               |         20 |          2 |          3 |         25 |
+| d:\vscode\js\frontend mentor\product-list-with-cart\client\vite.config.ts                                | TypeScript         |         26 |          1 |          2 |         29 |
+| Total                                                                                                    |                    |      7,086 |         10 |        288 |      7,384 |
++----------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
